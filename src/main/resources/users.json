@@ -1,0 +1,20 @@
+[
+  {
+    "id" : "1",
+    "firstName" : "Ivan",
+    "lastName" : "Ivanov",
+    "status" : "offline",
+    "email" : "ivan.ivanov@mail.ru",
+    "username" : "ivan.ivanov",
+    "password" : "12345"
+  },
+  {
+    "id" : "1",
+    "firstName" : "Stepan",
+    "lastName" : "Petrov",
+    "status" : "online",
+    "email" : "stepan.petrov@gmail.com",
+    "username" : "stepanius",
+    "password" : "qwerty"
+  }
+]
