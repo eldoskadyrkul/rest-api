@@ -9,7 +9,7 @@
     <form method="post" action="register.jsp">
         <div class="form-group">
             <label for="first_name">First name</label>
-            <input type="text" class="form-control" id="first_name" aria-describedby="emailHelp" placeholder="First name">
+            <input type="text" name="${us}" class="form-control" id="first_name" aria-describedby="emailHelp" placeholder="First name">
         </div>
         <div class="form-group">
             <label for="last_name">Last Name</label>
