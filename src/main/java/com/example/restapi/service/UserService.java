@@ -22,9 +22,13 @@ public class UserService {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
-    private static int count = 0;
+    private static int count = 2;
 
     /* добавление пользователя */
+    public void addUser(String firstName, String lastName, String status, String email, String username, String password) {
+        List<UserModel> userModelList = new ArrayList<>();
+        userModelList.add(new UserModel(++count, firstName, lastName, status, email, username, password));
+    }
 
 
     /* изменение пользователя */
