@@ -25,9 +25,7 @@ public class UserService {
     private static int count = 0;
 
     /* добавление пользователя */
-    public void addUserLogin(String firstName, String lastName, String status, String email, String username, String password) {
-//        /Zusers.add(new UserModel(++count, firstName, lastName, status, email, username, password));
-    }
+
 
     /* изменение пользователя */
     public void updateUserLogin(UserModel userLogin) {
