@@ -30,6 +30,17 @@ public class UserService {
         userModelList.add(new UserModel(++count, firstName, lastName, status, email, username, password));
     }
 
+    /* изменение статуса */
+    public List<UserModel> retrieveStatus(String status) {
+        List<UserModel> users = new ArrayList<>();
+        List<UserModel> filteredStat = new ArrayList<>();
+        for (UserModel userModel : users) {
+            if (userModel.getStatus().equalsIgnoreCase(status)) {
+                filteredStat.add(userModel);
+            }
+        }
+        return filteredStat;
+    }
 
     /* изменение пользователя */
     public void updateUserLogin(UserModel userLogin) {
