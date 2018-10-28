@@ -14,7 +14,7 @@
 
 <c:set var="allUsersList" value="${allUsers}"/>
 <c:choose>
-    <c:when test="${allUsersList.size > 0}">
+    <c:when test="${allUsersList.size() > 0}">
         <table style="width:80%">
             <tr>
                 <th>id</th>
